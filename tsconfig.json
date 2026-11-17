@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "typeRoots": [
+      "./"
+    ],
+    "types": [
+      "NetscriptDefinitions"
+    ],
+    "jsx": "react",
+    "paths": {
+      "@ns": [
+        "./NetscriptDefinitions.d.ts"
+      ],
+      "@/*": [
+        "./*"
+      ],
+    //   "lib/*": [
+    //     "./src/lib/*"
+    //   ],
+    },
+    // "noEmit": true,
+    // "allowImportingTsExtensions": true,
+  },
+  "include": [
+    "**/*.ts",
+    "NetscriptDefinitions.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "files": [
+    "NetscriptDefinitions.d.ts",
+    "NetscriptGlobals.d.ts"
+  ],
+}

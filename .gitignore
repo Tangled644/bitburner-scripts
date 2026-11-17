@@ -1,6 +1,6 @@
 .saves/
+tests/
 
 # Netscript
 NetscriptDefinitions.d.ts
 NetscriptGlobals.d.ts
-tsconfig.json

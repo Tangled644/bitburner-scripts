@@ -359,7 +359,7 @@ export class TaskScheduler {
         ns.print("WARN: Ensure the server is already optimal.")
         switch (strategy.toLowerCase()) {
             case "percent": {
-                if (typeof(param) == "undefined") {throw new RangeError("Percent must be between 0 and 1 exclusive.")}
+                if (typeof(param) == "undefined") {throw new RangeError("Percent must be between 0 and 1.")}
                 const percent = param;
                 if (typeof(player) == "undefined") {
                     const hAnalyze = ns.hackAnalyze(host.hostname);
